@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AntiRug Coalition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-950 text-gray-100 font-sans">
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center px-6 py-4 border-b border-gray-800">
+      <h1 class="text-2xl font-bold text-teal-400">🛡️ AntiRug Coalition</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-teal-400">About</a>
+        <a href="#standards" class="hover:text-teal-400">Standards</a>
+        <a href="#projects" class="hover:text-teal-400">Projects</a>
+        <a href="#join" class="hover:text-teal-400">Join</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="text-center py-24 px-4">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-white">
+        No Rugs. No Scams. Just Transparency.
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto mb-8">
+        The AntiRug Coalition is a movement for trust and accountability in the
+        crypto space. We promote verified, community-led projects that put transparency first.
+      </p>
+      <div class="space-x-4">
+        <a href="#projects" class="bg-teal-500 text-black font-semibold px-6 py-3 rounded-xl hover:bg-teal-400 transition">
+          View Verified Projects
+        </a>
+        <a href="#join" class="border border-teal-400 text-teal-400 font-semibold px-6 py-3 rounded-xl hover:bg-teal-900 transition">
+          Join the Coalition
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4 text-teal-400">What We Stand For</h3>
+      <p class="text-gray-300 leading-relaxed mb-4">
+        Rug pulls and exit scams have damaged the reputation of blockchain innovation. 
+        The AntiRug Coalition is a collective of developers, investors, and advocates 
+        committed to promoting transparency and protecting communities from fraud.
+      </p>
+      <p class="text-gray-300 leading-relaxed">
+        Every project listed here has passed community review and adheres to our open standards for safety and accountability.
+      </p>
+    </section>
+
+    <!-- STANDARDS -->
+    <section id="standards" class="bg-gray-900 py-16 px-6">
+      <div class="max-w-5xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-8 text-teal-400">The AntiRug Standards</h3>
+        <div class="grid md:grid-cols-3 gap-8 text-left">
+          <div class="p-6 bg-gray-800 rounded-2xl">
+            <h4 class="text-xl font-semibold mb-2 text-teal-300">Locked Liquidity</h4>
+            <p class="text-gray-400">Funds are locked or vested to ensure stability and prevent sudden withdrawals.</p>
+          </div>
+          <div class="p-6 bg-gray-800 rounded-2xl">
+            <h4 class="text-xl font-semibold mb-2 text-teal-300">Open Source Code</h4>
+            <p class="text-gray-400">Contracts are publicly verifiable and reviewed by independent contributors.</p>
+          </div>
+          <div class="p-6 bg-gray-800 rounded-2xl">
+            <h4 class="text-xl font-semibold mb-2 text-teal-300">Transparent Teams</h4>
+            <p class="text-gray-400">Developers are verified or community-trusted, ensuring accountability and open governance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-16 px-6 max-w-5xl mx-auto">
+      <h3 class="text-3xl font-bold mb-8 text-teal-400 text-center">Verified Projects</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+          <h4 class="text-xl font-semibold text-white mb-2">Project Alpha</h4>
+          <p class="text-gray-400 text-sm mb-3">Liquidity locked | Open source | Audit published</p>
+          <a href="#" class="text-teal-400 hover:underline">View Details →</a>
+        </div>
+        <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+          <h4 class="text-xl font-semibold text-white mb-2">Project Beta</h4>
+          <p class="text-gray-400 text-sm mb-3">Community governed | Verified devs</p>
+          <a href="#" class="text-teal-400 hover:underline">View Details →</a>
+        </div>
+        <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+          <h4 class="text-xl font-semibold text-white mb-2">Project Gamma</h4>
+          <p class="text-gray-400 text-sm mb-3">Open source | DAO-backed</p>
+          <a href="#" class="text-teal-400 hover:underline">View Details →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section id="join" class="bg-gray-900 py-16 px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4 text-teal-400">Join the Coalition</h3>
+      <p class="text-gray-400 max-w-2xl mx-auto mb-8">
+        Whether you’re a developer, investor, or enthusiast — take a stand for transparency.
+        Sign the AntiRug Pledge or contribute to our open repository of verified projects.
+      </p>
+      <a href="https://github.com/yourusername/antirugcoalition"
+         class="bg-teal-500 text-black font-semibold px-8 py-3 rounded-xl hover:bg-teal-400 transition">
+         Visit on GitHub
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-8 border-t border-gray-800 text-gray-500 text-sm">
+      © 2025 AntiRug Coalition — Open Source Initiative for Transparent Crypto
+    </footer>
+  </body>
+</html>
